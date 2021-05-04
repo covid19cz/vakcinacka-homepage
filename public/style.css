@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 2rem;
     font-family: sans-serif;
@@ -17,6 +21,10 @@ h2 {
     margin-bottom: 1rem;
 }
 
+h1 {
+    border-bottom: 2px solid #175fe3;
+}
+
 p,
 ul {
     margin-top: 1rem;
@@ -24,7 +32,7 @@ ul {
 }
 
 a {
-    color: #228ed5;
+    color: #175fe3;
 }
 
 a:hover {
