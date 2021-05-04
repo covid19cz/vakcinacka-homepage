@@ -4,5 +4,6 @@
 	"editor.detectIndentation": false,
 	"prettier.tabWidth": 4,
 	"editor.formatOnSave": true,
-	"editor.formatOnPaste": false
+	"editor.formatOnPaste": false,
+	"files.insertFinalNewline": true
 }

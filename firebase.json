@@ -1,10 +1,17 @@
 {
-  "hosting": {
-    "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
-  }
+	"hosting": {
+		"public": "public",
+		"ignore": [
+			"firebase.json",
+			"**/.*",
+			"**/node_modules/**"
+		],
+		"redirects": [
+			{
+				"source": "/kyjov",
+				"destination": "https://docs.google.com/forms/d/e/1FAIpQLSeJ3vXws0IkCNyRjpuoFEIpMI6mXevhRsd-L9sys55yR468_Q/viewform",
+				"type": 302
+			}
+		]
+	}
 }
